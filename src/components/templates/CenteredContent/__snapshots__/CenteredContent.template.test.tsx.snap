@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Centered content template should render correctly 1`] = `
+<main
+  className="css-1tmw1td"
+>
+  <div
+    className="css-1slw6ji"
+  >
+    Test
+  </div>
+</main>
+`;

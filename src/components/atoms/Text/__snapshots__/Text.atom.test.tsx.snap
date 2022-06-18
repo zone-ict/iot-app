@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text component should render correctly 1`] = `
+<div
+  className="css-onny4r"
+>
+  Text
+</div>
+`;
+
+exports[`Text.HeadingFive component should render correctly 1`] = `
+<h5
+  className="css-14a2izr"
+>
+  Text
+</h5>
+`;
+
+exports[`Text.HeadingFour component should render correctly 1`] = `
+<h4
+  className="css-1h3xd9j"
+>
+  Text
+</h4>
+`;
+
+exports[`Text.HeadingOne component should render correctly 1`] = `
+<h1
+  className="css-a15oo7"
+>
+  Text
+</h1>
+`;
+
+exports[`Text.HeadingThree component should render correctly 1`] = `
+<h3
+  className="css-176q8bd"
+>
+  Text
+</h3>
+`;
+
+exports[`Text.HeadingTwo component should render correctly 1`] = `
+<h2
+  className="css-jzboh9"
+>
+  Text
+</h2>
+`;

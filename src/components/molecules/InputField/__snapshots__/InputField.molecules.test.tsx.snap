@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input field component should be able to render correctly when passed label and error props 1`] = `
+<div>
+  <h6>
+    test
+  </h6>
+  <input
+    className="css-1fq7r63"
+  />
+  <div>
+    test
+  </div>
+</div>
+`;
+
+exports[`Input field component should be able to render correctly with only label props passed 1`] = `
+<div>
+  <h6>
+    test
+  </h6>
+  <input
+    className="css-1fq7r63"
+  />
+</div>
+`;
+
+exports[`Input field component should be able to render correctly without any props 1`] = `
+<div>
+  <h6 />
+  <input
+    className="css-1fq7r63"
+  />
+</div>
+`;
+
+exports[`Input field component should be able to render with only error prop passed 1`] = `
+<div>
+  <h6 />
+  <input
+    className="css-1fq7r63"
+  />
+  <div>
+    test
+  </div>
+</div>
+`;

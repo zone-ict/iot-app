@@ -1,0 +1,128 @@
+{
+  "name": "@zone-ict/iot-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "env-cmd -f .env react-scripts build",
+    "build:prod": "env-cmd -f ./.env.production react-scripts build",
+    "build:qa": "env-cmd -f ./.env.qa react-scripts build",
+    "coverage": "react-scripts test --coverage ./src/**/*.{ts,tsx,js,jsx}",
+    "eject": "react-scripts eject",
+    "format": "prettier --write .",
+    "postinstall": "husky install",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "start": "env-cmd -f .env react-scripts start",
+    "start:prod": "env-cmd -f ./.env.production react-scripts start",
+    "start:qa": "env-cmd -f ./.env.qa react-scripts start",
+    "test": "react-scripts test"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ],
+    "*.{js,jsx,ts,tsx,json,html,md,css}": [
+      "prettier --write"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "./src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/"
+    ],
+    "coverageReporters": [
+      "cobertura",
+      "json",
+      "lcov",
+      "text"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/file.js"
+    }
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/serialize": "^1.0.3",
+    "@emotion/styled": "^11.8.1",
+    "@headlessui/react": "^1.6.3",
+    "@heroicons/react": "^1.0.6",
+    "@reduxjs/toolkit": "^1.8.2",
+    "async-mutex": "^0.3.2",
+    "formik": "^2.2.9",
+    "localforage": "^1.10.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "twin.macro": "^3.0.0-rc.1",
+    "typescript": "^4.4.2",
+    "urlcat": "^2.0.4",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.1",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@emotion/babel-plugin": "^11.9.2",
+    "@emotion/babel-plugin-jsx-pragmatic": "^0.1.5",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@testing-library/user-event": "^14.2.0",
+    "@types/jest": "^27.5.1",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-test-renderer": "^18.0.0",
+    "@types/redux-logger": "^3.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "babel-plugin-macros": "^3.1.0",
+    "c8": "^7.11.3",
+    "env-cmd": "^10.1.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "husky": ">=6",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-junit": "^13.2.0",
+    "jsdom": "^19.0.0",
+    "lint-staged": ">=10",
+    "msw": "^0.41.0",
+    "prettier": "^2.6.2",
+    "react-test-renderer": "^18.1.0",
+    "tailwindcss": "^3.0.24",
+    "ts-jest": "^28.0.3",
+    "ts-node": "^10.8.0"
+  },
+  "packageManager": "yarn@3.2.1",
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
+  }
+}

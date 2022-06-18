@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="15" failures="0" errors="0" time="90.44">
+  <testsuite name="useAuth hook" errors="0" failures="0" skipped="0" timestamp="2022-05-30T06:51:32" time="18.764" tests="1">
+    <testcase classname="useAuth hook should be defined" name="useAuth hook should be defined" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="env config" errors="0" failures="0" skipped="0" timestamp="2022-05-30T06:51:53" time="3.006" tests="1">
+    <testcase classname="env config should have a apiBaseUrl" name="env config should have a apiBaseUrl" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="Session initial state" errors="0" failures="0" skipped="0" timestamp="2022-05-30T06:51:32" time="24.227" tests="11">
+    <testcase classname="Session initial state should be defined" name="Session initial state should be defined" time="0.025">
+    </testcase>
+    <testcase classname="Session initial state should have correct initial values" name="Session initial state should have correct initial values" time="0.004">
+    </testcase>
+    <testcase classname="Session actions should have correct actions" name="Session actions should have correct actions" time="0.003">
+    </testcase>
+    <testcase classname="Change Token action should have correct payload" name="Change Token action should have correct payload" time="0">
+    </testcase>
+    <testcase classname="Change Token action should have correct type" name="Change Token action should have correct type" time="0.001">
+    </testcase>
+    <testcase classname="Change Token action should have correct effect to state" name="Change Token action should have correct effect to state" time="0.001">
+    </testcase>
+    <testcase classname="Login action should have correct payload" name="Login action should have correct payload" time="0.001">
+    </testcase>
+    <testcase classname="Login action should have correct type" name="Login action should have correct type" time="0">
+    </testcase>
+    <testcase classname="Login action should have correct effect to state" name="Login action should have correct effect to state" time="0.001">
+    </testcase>
+    <testcase classname="Logout action should have correct type" name="Logout action should have correct type" time="0.003">
+    </testcase>
+    <testcase classname="Logout action should have correct effect to state" name="Logout action should have correct effect to state" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="redux persist config object" errors="0" failures="0" skipped="0" timestamp="2022-05-30T06:51:55" time="2.462" tests="1">
+    <testcase classname="redux persist config object should have correct values" name="redux persist config object should have correct values" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="locale configuration" errors="0" failures="0" skipped="0" timestamp="2022-05-30T06:51:56" time="3.323" tests="1">
+    <testcase classname="locale configuration should have correct keys" name="locale configuration should have correct keys" time="0.064">
+    </testcase>
+  </testsuite>
+</testsuites>

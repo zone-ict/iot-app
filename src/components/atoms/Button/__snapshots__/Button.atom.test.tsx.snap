@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Outlined component should render correctly 1`] = `
+<button
+  className="css-1lzjpho"
+>
+  Button Text
+</button>
+`;
+
+exports[`Button Outlined component should render correctly when component is disabled 1`] = `
+<button
+  className="css-1lhoyk"
+  disabled={true}
+>
+  Button Text
+</button>
+`;
+
+exports[`Button Outlined component should render correctly when there's no child component 1`] = `
+<button
+  className="css-1lzjpho"
+/>
+`;
+
+exports[`Button Outlined component should render correctly with flat prop 1`] = `
+<button
+  className="css-pwy6z3"
+>
+  Button Text
+</button>
+`;
+
+exports[`Button Outlined component should render correctly with small prop 1`] = `
+<button
+  className="css-ndby1y"
+>
+  Button Text
+</button>
+`;
+
+exports[`Button Outlined component should render correctly with text child and type 1`] = `
+<button
+  className="css-1lzjpho"
+  type="submit"
+>
+  Button Text
+</button>
+`;
+
+exports[`Button Text component should render correctly 1`] = `
+<button
+  className="css-1lzjpho"
+>
+  Button Text
+</button>
+`;
+
+exports[`Button Text component should render correctly when component is disabled 1`] = `
+<button
+  className="css-emjo5x"
+  disabled={true}
+>
+  Button Text
+</button>
+`;
+
+exports[`Button Text component should render correctly when there's no child component 1`] = `
+<button
+  className="css-1oskd8"
+/>
+`;
+
+exports[`Button Text component should render correctly with small prop 1`] = `
+<button
+  className="css-d5oupz"
+>
+  Button Text
+</button>
+`;
+
+exports[`Button Text component should render correctly with text child and type 1`] = `
+<button
+  className="css-1oskd8"
+  type="submit"
+>
+  Button Text
+</button>
+`;
+
+exports[`Button regular component should render correctly 1`] = `
+<button
+  className="css-qrgu0p"
+>
+  Button Text
+</button>
+`;
+
+exports[`Button regular component should render correctly when component is disabled 1`] = `
+<button
+  className="css-zs6jsq"
+  disabled={true}
+>
+  Button Text
+</button>
+`;
+
+exports[`Button regular component should render correctly when there's no child component 1`] = `
+<button
+  className="css-qrgu0p"
+/>
+`;
+
+exports[`Button regular component should render correctly with flat prop 1`] = `
+<button
+  className="css-1xavz1o"
+>
+  Button Text
+</button>
+`;
+
+exports[`Button regular component should render correctly with small prop 1`] = `
+<button
+  className="css-1huf3kw"
+>
+  Button Text
+</button>
+`;
+
+exports[`Button regular component should render correctly with text child and type 1`] = `
+<button
+  className="css-qrgu0p"
+  type="submit"
+>
+  Button Text
+</button>
+`;

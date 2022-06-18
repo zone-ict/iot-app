@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Router Component should render correctly 1`] = `
+<main
+  className="css-1tmw1td"
+>
+  <div
+    className="css-1slw6ji"
+  >
+    <div
+      css={
+        Object {
+          "> :not([hidden]) ~ :not([hidden])": Object {
+            "--tw-space-y-reverse": "0",
+            "marginBottom": "calc(2rem * var(--tw-space-y-reverse))",
+            "marginTop": "calc(2rem * calc(1 - var(--tw-space-y-reverse)))",
+          },
+          "display": "flex",
+          "flexDirection": "column",
+          "padding": "1rem",
+        }
+      }
+    >
+      <div>
+        <h1
+          className="css-lvgsmi"
+        >
+          Obniz Service
+        </h1>
+        <div
+          className="css-1wjizp4"
+        >
+          <div
+            className="css-njov1c"
+          >
+            Service Status: Loading...
+          </div>
+          <button
+            className="css-qrgu0p"
+            onClick={[Function]}
+          >
+            Start Service
+          </button>
+        </div>
+      </div>
+      <div>
+        <h1
+          className="css-lvgsmi"
+        >
+          Temperature
+        </h1>
+        <div
+          className="css-1wjizp4"
+        >
+          <div
+            className="css-njov1c"
+          >
+            Monitoring Status: Loading...
+          </div>
+          <button
+            className="css-zs6jsq"
+            disabled={true}
+            onClick={[Function]}
+          >
+            Start Monitoring
+          </button>
+        </div>
+      </div>
+      <div>
+        <h1
+          className="css-lvgsmi"
+        >
+          Security Sensor
+        </h1>
+        <div
+          className="css-1wjizp4"
+        >
+          <button
+            className="css-zs6jsq"
+            disabled={true}
+            onClick={[Function]}
+          >
+            Start Monitoring
+          </button>
+          <button
+            className="css-zs6jsq"
+            disabled={true}
+            onClick={[Function]}
+          >
+            Stop Monitoring
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;

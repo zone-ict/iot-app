@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login form component should be able to render correctly with false loading prop 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div>
+    <h6 />
+    <input
+      className="css-1fq7r63"
+      name="username"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div>
+    <h6 />
+    <input
+      className="css-1fq7r63"
+      name="password"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="password"
+    />
+  </div>
+  <button
+    disabled={false}
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`Login form component should be able to render correctly with true loading prop 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div>
+    <h6 />
+    <input
+      className="css-1fq7r63"
+      name="username"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div>
+    <h6 />
+    <input
+      className="css-1fq7r63"
+      name="password"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="password"
+    />
+  </div>
+  <button
+    disabled={true}
+    type="submit"
+  >
+    Loading...
+  </button>
+</form>
+`;
